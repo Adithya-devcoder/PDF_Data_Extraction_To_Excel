@@ -1,0 +1,1 @@
+py pdf_to_excel.py --folder "PDFs" --template "Excel Template.xlsx" --out "output.xlsx" --reset
