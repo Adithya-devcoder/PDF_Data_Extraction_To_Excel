@@ -1,2 +1,48 @@
+# Python cache and build artifacts
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and local configuration
+.env
+.env.*
+*.local
+
+# Excel lock/temp files
+~$*.xlsx
+~$*.xls
+
+# Generated workbook outputs and local data
+output*.xlsx
+*_output.xlsx
+*_fixed.xlsx
+tmp/
+temp/
+
+# Confidential/source data - keep anonymized samples outside these paths if needed
+PDFs/
+*.pdf
+
+# Local templates may contain confidential business formatting or data.
+# Remove this rule if you intentionally create and publish a sanitized template.
+Excel Template.xlsx
